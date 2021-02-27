@@ -1,7 +1,13 @@
+/*!
+MIT License
 
-// FileSaver.js - https://github.com/eligrey/FileSaver.js/
+Copyright (c) 2021 https://github.com/world177
+*/
 
 /*!
+
+FileSaver.js - https://github.com/eligrey/FileSaver.js/
+
 The MIT License
 
 Copyright © 2016 Eli Grey.
