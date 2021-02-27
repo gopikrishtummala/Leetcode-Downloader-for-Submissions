@@ -20,7 +20,7 @@ After extracting this file, there will be folders with all of the titles of the 
 
 ![](img/1.png)
 
-In each folder, there will be folders that indicate the final state of the the submission.
+In each folder, there will be folders that indicate the final state of the the submissions.
 
 ![](img/2.png)
 
