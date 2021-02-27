@@ -43,7 +43,7 @@ There are two source code files, both within the **js** folder.
 
 **EasilyReadableLeetCodeDownloader.js** is for you to review if you are worried about the safety of this file. It's written pretty simply so you can quickly review it if you want. The licenses in that file designate where I just copied and pasted the min.js files from [JSZip](https://raw.github.com/Stuk/jszip/) and [FileSaver.js](https://github.com/eligrey/FileSaver.js/). You should be able to just copy and paste them again from their repositories if you want. 
 
-You do not have to use the min.js file and can just copy and paste the entire file in the console if you make any changes. I usually like to quickly review stuff like this when it could potentially send my cookie for a website to an attacker - which is why I set it up like this.
+You do not have to use the min.js file and can just copy and paste the entire file in the console if you make any changes. I usually like to quickly review stuff like this when it could potentially send my cookies for a website to an attacker - which is why I set it up like this.
 
 **LeetCodeDownloader.min.js** is the same file as above, but ran through the js minifier found at https://jscompress.com. It was just included to make copy and pasting easier. (?, usually there isn't 1 js file, and multiple files need to be combined together to actually run it from the console. In this case it isn't **any** easier than just using the first file. Either way, both will work, and you're free to use whichever you prefer.)
 
