@@ -117,11 +117,11 @@ LeetCodeSubmissionDownloader.handleError = async function() {
 // Uses JSZip to put the results found into a zip file.
 LeetCodeSubmissionDownloader.processAPIResults = async function(lastWebResult) {
 	
-	LeetCodeSubmissionDownloader.last += LeetCodeSubmissionDownloader.INCREASE_LAST_BY;
-	
 	let data = JSON.parse(lastWebResult);
 	
 	let submissionsFound = data.submissions_dump;
+
+	LeetCodeSubmissionDownloader.last += submissionsFound.length;
 	
 	for(let i = 0; i < submissionsFound.length; i++) {
 		
